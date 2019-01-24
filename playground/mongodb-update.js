@@ -30,7 +30,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp',(err, db) => {
       age: 2
     }
   }, {
-    returnOriginal: 'Meng Zhou'
+    returnOriginal: false
   }).then((res) => {
     console.log(res)
   })
